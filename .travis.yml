@@ -4,7 +4,7 @@ node_js:
   - "8"
   - "10"
 before_script:
-  - apt-get install -y potrace librsvg2-bin
+  - sudo apt-get install -y potrace librsvg2-bin imagemagick
 install:
   - npm install -g coveralls
   - npm install
