@@ -34,7 +34,7 @@ program.command('init').action(async () => {
   const config = await configLoader();
   const p = path.join(process.cwd(), '.aasaam');
   await new Promise((r) => {
-    fs.watchFile(p, JSON.stringify(config, null, 2), () => {
+    fs.writeFile(p, JSON.stringify(config, null, 2), () => {
       r();
     });
   });

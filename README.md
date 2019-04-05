@@ -7,3 +7,23 @@
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AASAAM/pwa-tools.svg)](https://snyk.io/test/github/AASAAM/pwa-tools)
 
 Generic tools for generate optimized icons and manifest for your PWA.
+
+## Requirements
+
+GNU/Linux (prefer Ubuntu) via installed following packages:
+
+```bash
+sudo apt install potrace librsvg2-bin imagemagick netpbm
+```
+
+## Installation
+
+```bash
+sudo npm install -g @aasaam/pwa-tools --unsafe-perm
+```
+
+## Usage
+
+```bash
+pwa-tools init
+```

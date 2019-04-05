@@ -1,9 +1,14 @@
 {
   "name": "@aasaam/pwa-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generic tools for development progressive web applications",
   "bin": "aasaam-pwa.js",
   "preferGlobal": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AASAAM/pwa-tools.git"
+  },
   "keywords": [
     "aasaam",
     "cli",
