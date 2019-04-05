@@ -24,13 +24,16 @@ sudo npm install -g @aasaam/pwa-tools --unsafe-perm
 
 ## Usage
 
+Initialize AASAAM config
+
 ```bash
 pwa-tools init
 ```
 
-## AASAAM Config
+After init the aasaam configuration default generated and you can modify to generate items.
 
 ```js
+// .aasaam
 {
   "meta": {
     "appName": "AASAAM Software Group",
@@ -90,4 +93,16 @@ pwa-tools init
     }
   }
 }
+```
+
+Show modified config:
+
+```bash
+pwa-tools show-config
+```
+
+Generate icons ans stuff
+
+```bash
+pwa-tools generate-icons
 ```
