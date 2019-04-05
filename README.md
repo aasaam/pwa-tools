@@ -27,3 +27,67 @@ sudo npm install -g @aasaam/pwa-tools --unsafe-perm
 ```bash
 pwa-tools init
 ```
+
+## AASAAM Config
+
+```js
+{
+  "meta": {
+    "appName": "AASAAM Software Group",
+    "appShortName": "AASAAM",
+    "appDescription": "AASAAM Software Group - Dadeh Pardazan Ati Prozheh",
+    "developerName": "AASAAM Software Group - Development",
+    "developerURL": "https://github.com/AASAAM"
+  },
+  "humans": { // humans.txt
+    "team": [
+      {
+        "Original developer": "AASAAM Development Group",
+        "Location": "Tehran, Iran"
+      }
+    ],
+    "thanks": [
+      "Node",
+      "GNU/Linux"
+    ],
+    "site": {
+      "Standards": "HTML5, CSS3, JavaScript",
+      "Components": "Vue.js, Normalize.css",
+      "Softwares": "VSCode, Atom, GNU nano"
+    },
+    "note": "Built with love by AASAAM Software Group"
+  },
+  "path": { // relative path on cwd on pwa-tools command
+    "logo": "logo.svg",
+    "public": "public",
+    "iconsPath": "img/icons"
+  },
+  "favicons": { // https://github.com/itgalaxy/favicons
+    "density": 900, // svg density for scale
+    "path": "/img/icons",
+    "dir": "ltr",
+    "lang": "en-US",
+    "background": "#ffffff",
+    "theme_color": "#ffffff",
+    "appleStatusBarStyle": "black-translucent",
+    "display": "standalone",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/?home-screen=1",
+    "version": "0.0.1",
+    "logging": false,
+    "pixel_art": false,
+    "loadManifestWithCredentials": false,
+    "icons": {
+      "android": true,
+      "appleIcon": true,
+      "appleStartup": true,
+      "coast": true,
+      "favicons": true,
+      "firefox": true,
+      "windows": true,
+      "yandex": true
+    }
+  }
+}
+```
