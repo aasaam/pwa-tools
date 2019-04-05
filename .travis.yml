@@ -1,0 +1,13 @@
+sudo: true
+language: node_js
+node_js:
+  - "8"
+  - "10"
+before_script:
+  - apt-get install -y potrace librsvg2-bin
+install:
+  - npm install -g coveralls
+  - npm install
+script:
+  - npm run test:cover
+  - cat ./coverage/lcov.info | coveralls

@@ -1,0 +1,10 @@
+{
+  "plugins": ["sonarjs"],
+  "extends": [
+    "plugin:sonarjs/recommended",
+    "airbnb-base"
+  ],
+  "rules": {
+    "sonarjs/prefer-immediate-return": "off"
+  }
+}

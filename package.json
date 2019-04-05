@@ -1,0 +1,66 @@
+{
+  "name": "@aasaam/pwa-tools",
+  "version": "0.0.1",
+  "description": "Generic tools for development progressive web applications",
+  "bin": "aasaam-pwa.js",
+  "preferGlobal": true,
+  "keywords": [
+    "aasaam",
+    "cli",
+    "favicon",
+    "manifest",
+    "pwa"
+  ],
+  "authors": [
+    {
+      "name": "Muhammad Hussein Fattahizadeh",
+      "email": "m@mhf.ir"
+    }
+  ],
+  "license": "MIT",
+  "jest": {
+    "testRegex": ".spec.js$",
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "json",
+      "json-summary",
+      "text",
+      "lcov",
+      "html",
+      "clover"
+    ],
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test:cover": "jest --detectOpenHandles --runInBand --collectCoverage",
+    "test": "jest --detectOpenHandles --runInBand"
+  },
+  "dependencies": {
+    "async": "^2",
+    "await-to-js": "^2",
+    "commander": "^2",
+    "escape-html": "^1",
+    "favicons": "^5",
+    "humans-generator": "^2",
+    "imagemin": "^6",
+    "imagemin-pngquant": "^7",
+    "lodash": "^4",
+    "mkdirp": "^0",
+    "ora": "^3",
+    "pretty": "^2",
+    "prettyjson": "^1",
+    "sharp": "^0",
+    "svgo": "^1",
+    "xml-formatter": "^1"
+  },
+  "devDependencies": {
+    "eslint": "^5",
+    "eslint-config-airbnb-base": "^13",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-sonarjs": "^0",
+    "jest": "^24"
+  }
+}
