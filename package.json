@@ -1,6 +1,6 @@
 {
   "name": "@aasaam/pwa-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generic tools for development progressive web applications",
   "bin": "aasaam-pwa.js",
   "preferGlobal": true,
