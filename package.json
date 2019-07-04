@@ -41,7 +41,9 @@
   },
   "scripts": {
     "test:cover": "jest --detectOpenHandles --runInBand --collectCoverage",
-    "test": "jest --detectOpenHandles --runInBand"
+    "test": "jest --detectOpenHandles --runInBand",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2",
@@ -59,7 +61,8 @@
     "prettyjson": "^1",
     "sharp": "^0",
     "svgo": "^1",
-    "xml-formatter": "^1"
+    "xml-formatter": "^1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^5",
@@ -67,5 +70,6 @@
     "eslint-plugin-import": "^2",
     "eslint-plugin-sonarjs": "^0",
     "jest": "^24"
-  }
+  },
+  "snyk": true
 }
