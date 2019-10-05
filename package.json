@@ -62,7 +62,7 @@
     "sharp": "^0",
     "svgo": "^1",
     "xml-formatter": "^1",
-    "snyk": "^1.189.0"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "eslint": "^5",
