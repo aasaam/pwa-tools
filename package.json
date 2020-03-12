@@ -55,7 +55,7 @@
     "imagemin": "^6",
     "imagemin-pngquant": "^7",
     "lodash": "^4",
-    "mkdirp": "^0",
+    "mkdirp": "^1.0.0",
     "ora": "^3",
     "pretty": "^2",
     "prettyjson": "^1",
