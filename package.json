@@ -50,7 +50,7 @@
     "await-to-js": "^2",
     "commander": "^2",
     "escape-html": "^1",
-    "favicons": "^5",
+    "favicons": "^6.2.1",
     "humans-generator": "^2",
     "imagemin": "^6",
     "imagemin-pngquant": "^7",
